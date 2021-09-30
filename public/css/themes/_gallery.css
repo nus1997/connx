@@ -1,0 +1,9 @@
+.horizontal {
+  display: inline;
+  border-left: 1px solid;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.first {
+  border-left: none;
+  padding-left: 0; }

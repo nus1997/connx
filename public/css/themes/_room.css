@@ -1,0 +1,16 @@
+#page-room .horizontal {
+  display: inline;
+  border-left: 1px solid;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+#page-room ul li a:visited {
+  color: black; }
+
+#page-room ul li a:hover {
+  color: #cf8a09;
+  text-decoration: none !important; }
+
+#page-room .first {
+  border-left: none;
+  padding-left: 0; }

@@ -1,0 +1,39 @@
+#page-gallery{
+    ul{
+        li{
+            &.horizontal{ 
+                display: inline;
+                border-left: 1px solid;
+                padding-left: 25px;
+                padding-right: 25px;  
+            }
+            &.first { 
+                border-left: none;
+                padding-left: 0; 
+            }
+            & a{
+                &:visited{
+                    color:black;
+                }    
+                &:hover{           
+                    color:rgb(207, 138, 9);
+                    text-decoration:none !important; 
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        ul{
+            padding-left: 0px;
+            li{
+                &.horizontal{ 
+                    display: block;
+                    border-left: 0px solid;
+                    padding-left: 0px;
+                    padding-right: 0px;  
+                }
+            }
+        }
+    }
+}

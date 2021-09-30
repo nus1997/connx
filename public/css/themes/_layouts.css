@@ -1,0 +1,33 @@
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto; }
+
+body {
+  margin-top: 20px; }
+
+.bgcolor {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#972165), to(#5a317e));
+  background: -webkit-linear-gradient(left, #972165, #5a317e);
+  background: -o-linear-gradient(left, #972165, #5a317e);
+  background: linear-gradient(to right, #972165, #5a317e); }
+
+.bgcolorfoot {
+  background: #EBEDEF; }
+
+.font {
+  font-size: 10px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto; }
+
+ul {
+  list-style: none !important; }
+
+ul li a {
+  font-size: 13px; }

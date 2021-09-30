@@ -1,0 +1,116 @@
+@import "configs/colors";
+@import "configs/variables";
+@import "configs/fonts";
+
+// themes
+@import "themes/home";
+@import "themes/overview";
+@import "themes/gallery";
+@import "themes/facilities";
+@import "themes/footer";
+@import "themes/header";
+@import "themes/location";
+@import "themes/room";
+@import "themes/contact";
+
+@import "vendors/owlCarousel";
+
+.container {
+    @media #{$desktop}{
+        max-width: 1200px;
+    }
+    @media #{$desktop-lg}{
+        max-width: 1430px;
+    }
+}
+body{
+    font-size: 1rem;
+}
+
+h1{
+    font-family: "ActaDisplay-Medium";
+    font-size: 2.3rem;
+}
+
+h2{
+    font-size: 1.3rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+
+h2,h3{
+    font-family: "Brown-Bold";
+}
+
+body{
+    font-family: "Brown-Light";
+}
+
+.bd-bg{
+    width: 15%;
+    height: 10px;
+    background: -webkit-gradient(linear, left top, right top, from(#972165), to(#5a317e));
+    background: -webkit-linear-gradient(left, #972165, #5a317e);
+    background: -o-linear-gradient(left, #972165, #5a317e);
+    background: linear-gradient(to right, #972165, #5a317e);
+    position: absolute;
+    &.bd-fick-totop{
+        top: 0;
+    }
+    &.bd-fick-bottom{
+        bottom: 0;
+    }
+    &.bd-right{
+        right: 0;
+    }
+    &.bd-left{
+        left: 0;
+    }
+}
+
+
+.bgcolor{
+    background: -webkit-gradient(linear, left top, right top, from(#972165), to(#5a317e));
+    background: -webkit-linear-gradient(left, #972165, #5a317e);
+    background: -o-linear-gradient(left, #972165, #5a317e);
+    background: linear-gradient(to right, #972165, #5a317e);
+}
+
+.owl-dots{
+    display: none
+}
+
+.color-white{
+    color: $color-white;
+}
+
+.color-gray{
+    color: $color-gray;
+}
+
+.color-black{
+    color:  $color-black;
+}
+
+.color-orange{
+    color: $color-orange;
+}
+
+.color-gold{
+    color:$color-gold;
+}
+
+.color-purple{
+    color:$color-purple;
+}
+
+.bg-gray{
+    background-color: $color-gray;
+}
+
+.bg-black{
+    background-color: $color-black;
+}

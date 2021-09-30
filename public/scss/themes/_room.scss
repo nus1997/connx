@@ -1,0 +1,45 @@
+#page-room{
+
+    .bg-gray-img{
+        background: url('../site/img/facilities/facilitiesbg.jpg') right no-repeat;
+    }
+    .bg-white{
+        background:#ffffff;
+    }
+    
+    ul{
+        li{
+            &.horizontal{ 
+                display: inline;
+                border-left: 1px solid;
+                padding-left: 25px;
+                padding-right: 25px;  
+            }
+            &.first { 
+                border-left: none;
+                padding-left: 0; 
+            }
+            & a{
+                
+                &.active-menu-room,&:hover{           
+                    color:rgb(207, 138, 9);
+                    text-decoration:none !important; 
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        ul{
+            padding-left: 0px;
+            li{
+                &.horizontal{ 
+                    display: block;
+                    border-left: 0px solid;
+                    padding-left: 0px;
+                    padding-right: 0px;  
+                }
+            }
+        }
+    }  
+}

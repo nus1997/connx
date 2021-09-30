@@ -1,0 +1,17 @@
+#page-location{
+    .submenu-area{
+        list-style: none;
+        counter-reset: my-awesome-counter;
+        li{
+            counter-increment: my-awesome-counter;
+            &:before{
+                content: counter(my-awesome-counter) ".";
+                background-color: $color-gold;
+                color: $color-purple;
+                margin-right: 1.2rem;
+                padding: 5px;
+                border-radius: 50%;
+            }
+        }
+    }
+}

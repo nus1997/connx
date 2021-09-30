@@ -1,0 +1,16 @@
+#page-home{
+    .bg-gray-img{
+        background: url('../site/img/home/bg-home4.jpg') right no-repeat;
+    }
+
+    #block-room{
+        .block-detail{
+            position: absolute;
+            text-align: center;
+            bottom: 10px;
+            left: auto;
+            right: auto;
+            width: 100%;
+        }
+    }
+}

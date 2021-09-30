@@ -1,0 +1,15 @@
+#page-contact{
+    .bot{
+        img{
+            position: absolute;
+            bottom: 0;
+        }
+    }
+    @media screen and (max-width: 450px) {
+        .bot{
+            img{
+               display:none;
+            }
+        }
+    }
+}
